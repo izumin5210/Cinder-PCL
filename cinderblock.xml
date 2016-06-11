@@ -12,8 +12,19 @@
         >
         <headerPattern>include/pcl/**/*.h</headerPattern>
         <headerPattern>include/Eigen/*</headerPattern>
+        <headerPattern>include/flann/*</headerPattern>
         <includePath system="true">include</includePath>
         <platform os="macosx">
+            <dynamicLibrary>lib/macosx/libflann.1.8.4.dylib</dynamicLibrary>
+            <dynamicLibrary>lib/macosx/libflann.1.8.dylib</dynamicLibrary>
+            <dynamicLibrary>lib/macosx/libflann.dylib</dynamicLibrary>
+            <dynamicLibrary>lib/macosx/libflann_cpp.1.8.4.dylib</dynamicLibrary>
+            <dynamicLibrary>lib/macosx/libflann_cpp.1.8.dylib</dynamicLibrary>
+            <dynamicLibrary>lib/macosx/libflann_cpp.dylib</dynamicLibrary>
+            <staticLibrary>lib/macosx/libflann_cpp_s.a</staticLibrary>
+            <staticLibrary>lib/macosx/libflann_s.a</staticLibrary>
+
+
             <dynamicLibrary>lib/macosx/libpcl_2d.1.8.0.dylib</dynamicLibrary>
             <dynamicLibrary>lib/macosx/libpcl_2d.1.8.dylib</dynamicLibrary>
             <dynamicLibrary>lib/macosx/libpcl_2d.dylib</dynamicLibrary>
