@@ -12,7 +12,7 @@
         >
         <headerPattern>include/pcl/**/*.h</headerPattern>
         <headerPattern>include/Eigen/*</headerPattern>
-        <includePath>include</includePath>
+        <includePath system="true">include</includePath>
         <platform os="macosx">
             <dynamicLibrary>lib/macosx/libpcl_2d.1.8.0.dylib</dynamicLibrary>
             <dynamicLibrary>lib/macosx/libpcl_2d.1.8.dylib</dynamicLibrary>
