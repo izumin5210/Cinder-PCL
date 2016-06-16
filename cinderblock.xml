@@ -14,6 +14,52 @@
         <headerPattern>include/Eigen/*</headerPattern>
         <headerPattern>include/flann/*</headerPattern>
         <includePath system="true">include</includePath>
+        <platform os="vc2013">
+            <platform config="Debug">
+                <staticLibrary>lib/vc2013/x64/pcl_common_debug.lib</staticLibrary>
+                <staticLibrary>lib/vc2013/x64/pcl_features_debug.lib</staticLibrary>
+                <staticLibrary>lib/vc2013/x64/pcl_filters_debug.lib</staticLibrary>
+                <staticLibrary>lib/vc2013/x64/pcl_io_debug.lib</staticLibrary>
+                <staticLibrary>lib/vc2013/x64/pcl_io_ply_debug.lib</staticLibrary>
+                <staticLibrary>lib/vc2013/x64/pcl_kdtree_debug.lib</staticLibrary>
+                <staticLibrary>lib/vc2013/x64/pcl_keypoints_debug.lib</staticLibrary>
+                <staticLibrary>lib/vc2013/x64/pcl_ml_debug.lib</staticLibrary>
+                <staticLibrary>lib/vc2013/x64/pcl_octree_debug.lib</staticLibrary>
+                <staticLibrary>lib/vc2013/x64/pcl_outofcore_debug.lib</staticLibrary>
+                <staticLibrary>lib/vc2013/x64/pcl_people_debug.lib</staticLibrary>
+                <staticLibrary>lib/vc2013/x64/pcl_recognition_debug.lib</staticLibrary>
+                <staticLibrary>lib/vc2013/x64/pcl_registration_debug.lib</staticLibrary>
+                <staticLibrary>lib/vc2013/x64/pcl_sample_consensus_debug.lib</staticLibrary>
+                <staticLibrary>lib/vc2013/x64/pcl_search_debug.lib</staticLibrary>
+                <staticLibrary>lib/vc2013/x64/pcl_segmentation_debug.lib</staticLibrary>
+                <staticLibrary>lib/vc2013/x64/pcl_stereo_debug.lib</staticLibrary>
+                <staticLibrary>lib/vc2013/x64/pcl_surface_debug.lib</staticLibrary>
+                <staticLibrary>lib/vc2013/x64/pcl_tracking_debug.lib</staticLibrary>
+                <staticLibrary>lib/vc2013/x64/pcl_visualization_debug.lib</staticLibrary>
+            </platform>
+            <platform config="Release">
+                <staticLibrary>lib/vc2013/x64/pcl_common_release.lib</staticLibrary>
+                <staticLibrary>lib/vc2013/x64/pcl_features_release.lib</staticLibrary>
+                <staticLibrary>lib/vc2013/x64/pcl_filters_release.lib</staticLibrary>
+                <staticLibrary>lib/vc2013/x64/pcl_io_ply_release.lib</staticLibrary>
+                <staticLibrary>lib/vc2013/x64/pcl_io_release.lib</staticLibrary>
+                <staticLibrary>lib/vc2013/x64/pcl_kdtree_release.lib</staticLibrary>
+                <staticLibrary>lib/vc2013/x64/pcl_keypoints_release.lib</staticLibrary>
+                <staticLibrary>lib/vc2013/x64/pcl_ml_release.lib</staticLibrary>
+                <staticLibrary>lib/vc2013/x64/pcl_octree_release.lib</staticLibrary>
+                <staticLibrary>lib/vc2013/x64/pcl_outofcore_release.lib</staticLibrary>
+                <staticLibrary>lib/vc2013/x64/pcl_people_release.lib</staticLibrary>
+                <staticLibrary>lib/vc2013/x64/pcl_recognition_release.lib</staticLibrary>
+                <staticLibrary>lib/vc2013/x64/pcl_registration_release.lib</staticLibrary>
+                <staticLibrary>lib/vc2013/x64/pcl_sample_consensus_release.lib</staticLibrary>
+                <staticLibrary>lib/vc2013/x64/pcl_search_release.lib</staticLibrary>
+                <staticLibrary>lib/vc2013/x64/pcl_segmentation_release.lib</staticLibrary>
+                <staticLibrary>lib/vc2013/x64/pcl_stereo_release.lib</staticLibrary>
+                <staticLibrary>lib/vc2013/x64/pcl_surface_release.lib</staticLibrary>
+                <staticLibrary>lib/vc2013/x64/pcl_tracking_release.lib</staticLibrary>
+                <staticLibrary>lib/vc2013/x64/pcl_visualization_release.lib</staticLibrary>
+            </platform>
+        </platform>
         <platform os="macosx">
             <dynamicLibrary>lib/macosx/libflann.1.8.4.dylib</dynamicLibrary>
             <dynamicLibrary>lib/macosx/libflann.1.8.dylib</dynamicLibrary>
